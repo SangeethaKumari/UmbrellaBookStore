@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0097A7</color>
+    <color name="colorPrimaryDark">#006064</color>
+    <color name="colorAccent">#7b1fa2</color>
+    <color name="color_fab">#00bcd4</color>
+
+    <color name="color_book_header">#7b1fa2</color>
+
+    <!-- Primary color for the editor -->
+    <color name="editorColorPrimary">#0097A7</color>
+
+    <!-- Primary dark color for the editor -->
+    <color name="editorColorPrimaryDark">#006064</color>
+
+</resources>

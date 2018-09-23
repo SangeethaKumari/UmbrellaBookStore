@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Umbrella Book Store</string>
+
+    <!--Labels to insert dummy book detail values in the Book Details table -->
+    <string name="book_name">Head First Android Development</string>
+    <string name="book_price">35</string>
+    <string name="book_quantiy">100</string>
+    <string name="book_supplier_name">CreateSpace</string>
+    <string name="book_supplier_phone_number">100-100-1001</string>
+
+
+    <!-- Label for overflow menu option that inserts fake book details data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all book data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Books</string>
+
+    <!-- Label for book count header, adding a tailing space value-->
+    <string name="book_count_header">THE BOOK DETAILS TABLE CONTAINS \u0020</string>
+
+    <!-- Label for book header details-->
+    <string name="book_header_details">Details of the books:</string>
+
+    <!-- Label for books , adding a leading space value-->
+    <string name="books">\u0020 BOOKS.</string>
+
+    <!-- Title text for the empty view, which describes the empty book store image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">Empty Umbrella Book Store.</string>
+
+
+    <!-- Subtitle text for the empty view that prompts the user to add a book [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding book</string>
+
+    <string name="dollar">$</string>
+    <string name="price">Price: \u0020 </string>
+    <!-- Label for catalog menu option to add new book [CHAR LIMIT=20] -->
+    <string name="action_add">Add</string>
+
+    <!--Strings used in menu_editor.xml -->
+    <!-- Label for editor menu option to save book and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current book [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_book">Add a Book</string>
+    <!-- Title for the activity to save an existing book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_existing_book">Save a Book</string>
+
+    <!-- Text used in activity_editor.xml -->
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">BOOK</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=100] -->
+    <string name="hint_book_name">Name</string>
+
+    <!-- Text hint for book price field in the editor [CHAR LIMIT=5] -->
+    <string name="hint_book_price">Price in dollars</string>
+
+    <!-- Label for Supplier details of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="supplier_details">SUPPLIER</string>
+
+    <!-- Text hint for supplier name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_name">Name</string>
+
+    <!-- Text hint for Supplier phone number field in the editor [CHAR LIMIT=12] -->
+    <string name="hint_supplier_phone_number">Phone number</string>
+
+    <!-- Text hint for quanity field in the editor [CHAR LIMIT=3] -->
+    <string name="hint_book_quantity">Quantity</string>
+
+    <!-- Text for quantity field in the list_items_books [CHAR LIMIT=3] -->
+    <string name="default_book_quantity">5</string>
+
+    <!-- Text save the book details -->
+    <string name="save_books">Save</string>
+
+    <!-- Text for books_deleted_success -->
+    <string name="books_deleted_success">All the books in the inventory are deleted successfully</string>
+
+    <!-- Text for books_deleted_failed -->
+    <string name="books_deleted_failed">Books deletion is unsuccessful, try again</string>
+
+    <!-- variables used in EditorActivity class  -->
+    <!-- Strings used while inserting a new book  -->
+    <!-- Toast message in editor when current book was successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_successful">New book added successfully to the inventory. </string>
+
+    <!-- Toast message in editor when current book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_failed">Error with adding book to the inventory.</string>
+
+    <!-- Strings used while saving an existing book  -->
+
+    <!-- Toast message in editor when current book was successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_save_book_successful">Changes successfully saved in the inventory. </string>
+
+    <!-- Toast message in editor when current book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_save_book_failed">Error while saving book changes to the inventory.</string>
+
+    <!-- Strings used in the alert dialog pop-up while editing a book details  -->
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Strings used in the alert dialog pop-up while deleting a book  -->
+
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current book [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+</resources>
